@@ -1,4 +1,4 @@
-<AIMind>
+﻿<AIMind>
 <Root id="0"/>
 <Feature id="0" data="2008 Summer Olympic Games">
 <neighbor dest="96" weight="0" relationship="has"/>
@@ -3419,12 +3419,12 @@
 <parent dest="160" weight="1" relationship=""/>
 <parent dest="244" weight="1" relationship=""/>
 <parent dest="171" weight="1" relationship=""/>
-<parent dest="276" weight="0" relationship="has"/>
+<parent dest="276" weight="0" relationship=""/>
 <speak value="Gold Sports are sport events in which American athletes have won gold medals."/>
 </Feature>
 <Feature id="276" data="United States Olympic Committee (USOC)">
 <neighbor dest="259" weight="0" relationship=""/>
-<neighbor dest="275" weight="0" relationship=""/>
+<neighbor dest="275" weight="0" relationship="has"/>
 <parent dest="0" weight="1" relationship=""/>
 <speak value="Founded in 1894 and headquartered in Colorado Springs, the United States Olympic Committee (USOC) is the National Olympic Committee for the United States."/>
 </Feature>
